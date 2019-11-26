@@ -97,13 +97,11 @@
 						<td><label for="edit_group_name">New Group Name:</label></td>
 						<td><input type="text" name="edit_group_name" id="edit_group_name" required="true" dojoType="dijit.form.ValidationTextBox" style="margin-bottom: 6px" /></td>
 					</tr>
-					<tr>
-						<td colspan="2" align="center">
-							<button dojoType="dijit.form.Button" type="submit">Submit</button>
-							<button dojoType="dijit.form.Button" jsId="editGroupCancel" type="button">Cancel</button>
-						</td>
-					</tr>
 				</table>
+				<div class="dijitDialogPaneActionBar">
+					<button dojoType="dijit.form.Button" type="submit">Submit</button>
+					<button dojoType="dijit.form.Button" jsId="editGroupCancel" type="button">Cancel</button>
+				</div>
 			</div>
 		</div>
 		
@@ -179,13 +177,12 @@
 						<td><label for="edit_contact_linkedin">LinkedIn:</label></td>
 						<td><input type="text" name="edit_contact_linkedin" id="edit_contact_linkedin" required="false" dojoType="dijit.form.ValidationTextBox" /></td>
 					</tr>
-					<tr>
-						<td colspan="2" align="center">
-							<button dojoType="dijit.form.Button" type="submit">Submit</button>
-							<button dojoType="dijit.form.Button" jsId="editContactCancel" type="button">Cancel</button>
-						</td>
-					</tr>
 				</table>
+				
+				<div class="dijitDialogPaneActionBar" style="text-align: center;">
+					<button dojoType="dijit.form.Button" type="submit">Submit</button>
+					<button dojoType="dijit.form.Button" jsId="editContactCancel" type="button">Cancel</button>
+				</div>
 			</div>
 		</div>
 

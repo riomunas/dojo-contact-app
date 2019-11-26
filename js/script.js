@@ -51,7 +51,8 @@ dojo.addOnLoad(function() {
 		var btnsDiv = dojo.create("div", {
 			style: {
 				textAlign: "center"
-			}
+			},
+			class:"dijitDialogPaneActionBar"
 		});
 
 		var okBtn = new dijit.form.Button({label: "OK", id: "confirmDialogOKButton", onClick: callback });
